@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: #0F6292;
+}
+
+#formacao_complementar li,
+#Sobre p,
+#formacao_academica td {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#formacao_academica th {
+    color: #0F6292;
+}
+
+#formacao_complementar li:hover{
+color:#000000;
+}
+#Sobre p:hover{
+    color:#000000;
+}
+#formacao_academica  tr td:hover{
+    color:#000000;
+}
+
+/* ctrl + shift + p atalho*/

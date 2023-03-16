@@ -4,31 +4,56 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     font-family: 'Montserrat', sans-serif;
+    background-image: url('../img/fundo_curriculo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 h2 {
     color: #0F6292;
 }
 
-#formacao_complementar li,
-#Sobre p,
-#formacao_academica td {
+#formacao_complementar li {
     font-weight: bold;
-    color: #FFFFFF;
 }
 
-#formacao_academica th {
-    color: #0F6292;
+#Sobre p{
+    font-weight: bold;
+} 
+
+#formacao_complementar h2:hover,
+#formacao_complementar li:hover {
+    color: #000000;
+    cursor: default;
 }
 
-#formacao_complementar li:hover{
-color:#000000;
+#Sobre p:hover {
+    cursor: default;
 }
-#Sobre p:hover{
-    color:#000000;
+
+#formacao_academica tr td:hover {
+    cursor: default;
 }
-#formacao_academica  tr td:hover{
-    color:#000000;
+
+#formacao_academica tr:hover{
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+#formacao_academica table {
+    width: 100%;
+}
+
+#formacao_academica thead{
+    background-color: grey;
+}
+
+#formacao_academica table:hover {
+    cursor: default;
+}
+
+#apresentacao img {
+    border-radius: 50%;
 }
 
 /* ctrl + shift + p atalho*/

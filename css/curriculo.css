@@ -1,16 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Sono&display=swap');
 
 body {
-    margin-left: 5%;
-    margin-right: 5%;
     font-family: 'Montserrat', sans-serif;
     background-image: url('../img/fundo_curriculo.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
+section{
+    margin-left: 15%;
+    margin-right: 5%;
+}
 
 h2 {
     color: #0F6292;
+}
+
+#apresentacao h1{
+    font-family: 'Sono', sans-serif;
 }
 
 #formacao_complementar li {
@@ -20,8 +27,10 @@ h2 {
 #Sobre p{
     font-weight: bold;
 } 
+#dados_pessoais a{
+    text-decoration: none;
+}
 
-#formacao_complementar h2:hover,
 #formacao_complementar li:hover {
     color: #000000;
     cursor: default;
@@ -36,7 +45,7 @@ h2 {
 }
 
 #formacao_academica tr:hover{
-    background-color: lightgray;
+    background-color: #d1e0e0;
     font-weight: bold;
 }
 
@@ -45,7 +54,7 @@ h2 {
 }
 
 #formacao_academica thead{
-    background-color: grey;
+    background-color:#8585ad;
 }
 
 #formacao_academica table:hover {
@@ -54,6 +63,19 @@ h2 {
 
 #apresentacao img {
     border-radius: 50%;
+}
+
+#end_map address{
+    text-align: center;
+}
+
+#end_map address h4{
+    font-size: 15px;
+}
+
+#porfolio iframe{
+    display: inline-block;
+    overflow-y: hidden;
 }
 
 /* ctrl + shift + p atalho*/
